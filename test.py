@@ -55,40 +55,66 @@ array = [1,2,3,4,5]
 #         print(x)
 #         break
 
+#
+# a = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+#
+# findNum = int(input("Enter a Number: "))
+#
+# answer = 0
+#
+#
+# beg = 0
+# end = len(a)-1
+#
+# test = a[0] + a[5]
+#
+#
+#
+# while beg<=end:
+#     mid= int((beg+end//2))
+#     if findNum == a[mid]:
+#         answer = 1
+#         break
+#     elif findNum > int(a[mid]):
+#         beg = mid+1
+#     else:
+#         end = mid-1
+# if answer == 1:
+#     print("element found at index", mid)
+#     print("element = ", a[mid])
+#
 
-a = [1,2,3,4,5,6,7,8,9,10,11,12,13]
-
-findNum = int(input("Enter a Number: "))
-
-answer = 0
-
-
-beg = 0
-end = len(a)-1
-
-test = a[0] + a[5]
+# ar = eval(input("enter list elements"))
+# list = eval(input("enter list elements"))
 
 
 
-while beg<=end:
-    mid= int((beg+end//2))
-    if findNum == a[mid]:
-        answer = 1
-        break
-    elif findNum > int(a[mid]):
-        beg = mid+1
-    else:
-        end = mid-1
-if answer == 1:
-    print("element found at index", mid)
-    print("element = ", a[mid])
 
-
+# print(ar)
 
 
 #
+# ar1 = [1,2,3]
+#
+# b = list(ar1)
+#
+# # b[0] = 3
+# test = (3,)
+#
+# print(test[0]+2)
+# #
 
+def sum():
+    x = int(input("enter first num: "))
+    y = int(input("enter second num: "))
+    return f'sum= {x + y}'
 
+# print(sum())
+
+def test():
+    print("testtt")
+
+print(test())
 
 
 
